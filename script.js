@@ -14,7 +14,7 @@ if (Trustindex === undefined) {
             CDNUrl: "https://cdn.trustindex.io/",
             getDefaultAvatarUrl: function() {
                 return Trustindex.CDNUrl + "assets/default-avatar/noprofile-01.svg"
-                console.log(CDNUrl);
+                console.log(CDNUrl); //CDNUrl
             },
             getWidgetUrl: function(b) {
                 if (typeof b == "undefined") {
